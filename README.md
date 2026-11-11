@@ -1,4 +1,4 @@
-# VisualDataSize 1.3.1
+# VisualDataSize 1.3.2
 
 A small client-side Fabric mod for Minecraft 26.3.
 
