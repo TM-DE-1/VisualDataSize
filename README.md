@@ -45,7 +45,7 @@ Java 25 is required.
 ./gradlew build
 ```
 
-The project targets Minecraft 26.3 with Fabric Loader 0.19.5, Fabric API 0.161.0+26.3, Fabric Loom 1.18.x, and the Gradle 9.7.1 wrapper. Minecraft 26.3 uses Java 25.
+The project targets Minecraft 26.3 with Fabric Loader 0.19.5, Fabric API 0.161.0+26.3 (compile-time version), Fabric Loom 1.18.x, and the Gradle 9.7.1 wrapper. At runtime, the mod does not pin a Fabric API version: Fabric Loader accepts any installed Fabric API version, while Fabric API's own metadata still determines whether that release supports Minecraft 26.3. Minecraft 26.3 uses Java 25.
 
 ## Code and assets
 
